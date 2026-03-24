@@ -12,6 +12,12 @@ telaUsuario
 PASCAL CASE = primeira letra de cada palavra maiuscula
 TelaUsuario
 
+KEBAB CASE = as palavras tiver um -
+tela-usuario
+
+SNAKE CASE = as palavras tiver um _ 
+tela_usuario
+
 JAVASCRIPT - Não tem nada ver com JAVA
 JAVASCRIPT - É uma linguagem de script mais utilizadas na internet
 JAVASCRIPT - É case sensitive
