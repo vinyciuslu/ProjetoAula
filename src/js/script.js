@@ -1,5 +1,7 @@
 // Declarações e Variaveis 
 
+const { use } = require("react");
+
 //var, let e const
 
 // var x= 10;
@@ -76,10 +78,81 @@
 // Utilizando as variáveis p (preço do produto) e  v(valor do desconto), crie uma nova variável 
 // chamada precoFinal que subtraia o desconto do preço e exiba o resultado. 
 
-const p= 1000;
-const v= 200;
-const precoFinal= p - v;
-console.log("O preço final com desconto é:", precoFinal)
+// const p= 1000;
+// const v= 200;
+// const precoFinal= p - v;
+// console.log("O preço final com desconto é:", precoFinal)
 
-// Verificação de Segurança (Login e Token)
-// No banco, para autorizar uma transação, precisamos que o usuário esteja logado e que o token de segurança seja válido.
+// // Verificação de Segurança (Login e Token)
+// // No banco, para autorizar uma transação, precisamos que o usuário esteja logado e que o token de segurança seja válido.
+//  const usuarioLogado=1;
+//  const token= 100;
+//  const transacaoAutorizada= usuarioLogado === 1 && token >=10;
+//  console.log ("Transação Autorizada com sucesso", transacaoAutorizada);
+
+ // Estrutura Condicional 
+
+ //if
+// if(false) {
+//      console.log("É verdadeiro")
+// }
+
+// if/else
+
+// let nome="Fiap";
+
+// if(nome=="Fiap"){
+//     console.log("Nome verdadeiro")
+// } else {
+//     console.log("Nome errado")
+// }
+
+// if encardeado ou aninhado 
+
+
+let idade = 19;
+
+if( idade <= 13) {
+    console.log("É uma criança")
+} else if ( idade > 13 && idade <= 18){
+    console.log("É um adolescente")
+} else if ( idade > 18 && idade <= 60){
+    console.log("É um adulto")
+} else {
+    console.log("É um idoso")
+}
+
+let times = prompt("Digite seu time:");
+
+switch (times) {
+    case "santos":
+        console.log("Um time idoso")
+        break;
+    case "sao paulo":
+        console.log("Time Panetone")
+        break;
+    case "palmeiras":
+        console.log("SEM MUNDIAL")
+        break;
+    case "corithians":
+        console.log("Um tide de tradição")
+        break;
+    default:
+        console.log("É um time ruim quanto a seleção brasileira")
+}
+
+// ternaria
+
+let salario= prompt("Digite salario: ");
+let resultado= salario == 100 ? "Salario Certo" : "Salario Errado"
+console.log(resultado)
+
+let usuario= prompt ("Digite seu Usuário:   ");
+let userLogado= usuario === "fiap"?"Logado com sucesso" : "Usuário Inválido"
+console.log(userLogado);
+
+
+function verrificarParImpar (numero) {
+    return numero % 2 === 0 ? "PAR" : "IMPAR";
+}
+console.log(verrificarParImpar);
