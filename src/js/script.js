@@ -48,25 +48,38 @@
 
 // OPERADORES ARITIMÉTICOS
 
-const valor1=20;
-const valor2=10 
+// const valor1=20;
+// const valor2=10 
 
-console.log(valor1 + valor2);
-console.log(valor1 / valor2);
-console.log(valor1 - valor2);
-console.log(valor1 * valor2);
+// console.log(valor1 + valor2);
+// console.log(valor1 / valor2);
+// console.log(valor1 - valor2);
+// console.log(valor1 * valor2);
 
-// OPERADORE LÓGICOS
+// // OPERADORE LÓGICOS
 
-console.log( valor1 > valor2);
-console.log( valor1 > 10 && valor2 != 20);
-console.log( valor2 > 5 || valor1 > 50 );
+// console.log( valor1 > valor2);
+// console.log( valor1 > 10 && valor2 != 20);
+// console.log( valor2 > 5 || valor1 > 50 );
 
-// OPERADORES DE COMPARAÇÃO 
-console.log( valor1 < valor2);
-console.log( valor1 >= valor2);
-console.log( valor1 <= valor2);
-console.log( valor1 != valor2);
-console.log( valor1 == valor2);
-console.log( valor1 === valor2);
-console.log(" O valor é", valor2);
+// // OPERADORES DE COMPARAÇÃO 
+
+// console.log( valor1 < valor2);
+// console.log( valor1 >= valor2);
+// console.log( valor1 <= valor2);
+// console.log( valor1 != valor2);
+// console.log( valor1 == valor2);
+// console.log( valor1 === valor2);
+// console.log(" O valor é", valor2);
+
+
+// Utilizando as variáveis p (preço do produto) e  v(valor do desconto), crie uma nova variável 
+// chamada precoFinal que subtraia o desconto do preço e exiba o resultado. 
+
+const p= 1000;
+const v= 200;
+const precoFinal= p - v;
+console.log("O preço final com desconto é:", precoFinal)
+
+// Verificação de Segurança (Login e Token)
+// No banco, para autorizar uma transação, precisamos que o usuário esteja logado e que o token de segurança seja válido.
