@@ -110,49 +110,61 @@ const { use } = require("react");
 // if encardeado ou aninhado 
 
 
-let idade = 19;
+// let idade = 19;
 
-if( idade <= 13) {
-    console.log("É uma criança")
-} else if ( idade > 13 && idade <= 18){
-    console.log("É um adolescente")
-} else if ( idade > 18 && idade <= 60){
-    console.log("É um adulto")
-} else {
-    console.log("É um idoso")
+// if( idade <= 13) {
+//     console.log("É uma criança")
+// } else if ( idade > 13 && idade <= 18){
+//     console.log("É um adolescente")
+// } else if ( idade > 18 && idade <= 60){
+//     console.log("É um adulto")
+// } else {
+//     console.log("É um idoso")
+// }
+
+// let times = prompt("Digite seu time:");
+
+// switch (times) {
+//     case "santos":
+//         console.log("Um time idoso")
+//         break;
+//     case "sao paulo":
+//         console.log("Time Panetone")
+//         break;
+//     case "palmeiras":
+//         console.log("SEM MUNDIAL")
+//         break;
+//     case "corithians":
+//         console.log("Um tide de tradição")
+//         break;
+//     default:
+//         console.log("É um time ruim quanto a seleção brasileira")
+// }
+
+// // ternaria
+
+// let salario= prompt("Digite salario: ");
+// let resultado= salario == 100 ? "Salario Certo" : "Salario Errado"
+// console.log(resultado)
+
+// let usuario= prompt ("Digite seu Usuário:   ");
+// let userLogado= usuario === "fiap"?"Logado com sucesso" : "Usuário Inválido"
+// console.log(userLogado);
+
+
+// function verrificarParImpar (numero) {
+//     return numero % 2 === 0 ? "PAR" : "IMPAR";
+// }
+// console.log(verrificarParImpar(10))
+
+
+//  ESTRUTURA DE REPETIÇÃO  (LAÇO DE REPETIÇão)
+
+// for - Estrutura de repetição utilizada quando sabemos previamente quantas vezes o código vai ser executado
+
+//declaração, operação, incremento
+
+for(let i=1; i<=5;i++) {
+    console.log("Numero:",i);
 }
 
-let times = prompt("Digite seu time:");
-
-switch (times) {
-    case "santos":
-        console.log("Um time idoso")
-        break;
-    case "sao paulo":
-        console.log("Time Panetone")
-        break;
-    case "palmeiras":
-        console.log("SEM MUNDIAL")
-        break;
-    case "corithians":
-        console.log("Um tide de tradição")
-        break;
-    default:
-        console.log("É um time ruim quanto a seleção brasileira")
-}
-
-// ternaria
-
-let salario= prompt("Digite salario: ");
-let resultado= salario == 100 ? "Salario Certo" : "Salario Errado"
-console.log(resultado)
-
-let usuario= prompt ("Digite seu Usuário:   ");
-let userLogado= usuario === "fiap"?"Logado com sucesso" : "Usuário Inválido"
-console.log(userLogado);
-
-
-function verrificarParImpar (numero) {
-    return numero % 2 === 0 ? "PAR" : "IMPAR";
-}
-console.log(verrificarParImpar);
