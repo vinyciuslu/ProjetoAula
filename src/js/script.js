@@ -221,7 +221,7 @@ let palpite;
 
 // gerar um numero aleatorio entre 1 e 10
 const sorteio = Math.floor(Math.random() * 10)
-        
+
 
 do {
     palpite = parseInt(prompt("Digite um numero entre 1 e 10"));
@@ -235,5 +235,5 @@ do {
     }
 }while(palpite !== sorteio)
     if (palpite === sorteio) {
-        alert ("Parabéns, você ganhou R$ 100,00 :) ")
+        alert (`Parabéns, você acertou ${palpite} ganhou R$ 100,00 :) `)
 }
