@@ -1,6 +1,6 @@
 // Declarações e Variaveis 
 
-const { use } = require("react");
+// const { use } = require("react");
 
 //var, let e const
 
@@ -168,3 +168,72 @@ for(let i=1; i<=5;i++) {
     console.log("Numero:",i);
 }
 
+// for para array 
+
+const linguagens = ["Java", "Python", "C#", "PHP"];
+
+for ( let i=0; i < linguagens.length;i++) {
+    console.log("Linguagem",i ,":", linguagens[i]);
+}
+
+const tecnologias =["JS", "HTML", "CSS"];
+
+for (const tech of tecnologias) {
+    console.log("Estudando", tech)
+}
+
+const carros ={marca: "Volks", modelo:"Fusca", ano:1980};
+
+for ( let dados in carros){
+    console.log(dados, ":", carros[dados])
+}
+
+// While - diferente do For o While não sabemos a quantidade de vezes que o código vai executar
+
+let i=1;
+
+while( i <=5){
+    console.log("Contagem", i)
+    i++;
+}
+
+// Declaração de variavel indefinida
+// let numero;
+
+// while(numero !== "0") {
+//  numero = prompt("Digite: ( ou 0 para sair)");
+//  console.log("Eu sei o que você digitou", numero);
+// }
+// console.log("Fim do programa")
+
+
+// do while ( execita ao menos uma vez )
+let contador =10;
+
+do {
+    console.log("Vai executar pelo menos uma vez")
+    contador++;
+} while (contador <=5);
+
+
+// declaração da variavel undefined
+let palpite;
+
+// gerar um numero aleatorio entre 1 e 10
+const sorteio = Math.floor(Math.random() * 10)
+        
+
+do {
+    palpite = parseInt(prompt("Digite um numero entre 1 e 10"));
+
+    if (isNaN(palpite)){
+        alert("Saindo do jogo ")
+        break;
+    }
+    if(palpite < sorteio) {
+        alert("Você Perdeu R$ 100,00 :( ")
+    }
+}while(palpite !== sorteio)
+    if (palpite === sorteio) {
+        alert ("Parabéns, você ganhou R$ 100,00 :) ")
+}
