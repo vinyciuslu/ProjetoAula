@@ -224,7 +224,7 @@ const sorteio = Math.floor(Math.random() * 10)
 
 
 do {
-    palpite = parseInt(prompt("Digite um numero entre 1 e 10"));
+    palpite = parseInt(prompt("Digite um numero entre 1 e 100000"));
 
     if (isNaN(palpite)){
         alert("Saindo do jogo ")
@@ -237,3 +237,5 @@ do {
     if (palpite === sorteio) {
         alert (`Parabéns, você acertou ${palpite} ganhou R$ 100,00 :) `)
 }
+    else {
+    alert (`Sla`) }
