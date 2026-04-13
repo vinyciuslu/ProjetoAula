@@ -238,4 +238,4 @@ do {
         alert (`Parabéns, você acertou ${palpite} ganhou R$ 100,00 :) `)
 }
     else {
-    alert (`Sla`) }
+    alert (`Sla mais teste`) }
